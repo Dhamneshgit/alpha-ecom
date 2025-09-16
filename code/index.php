@@ -1,7 +1,7 @@
 
 <?php
 
-echo "This is my 5th CI/CD." die;
+echo "This is my 6th CI/CD." die;
 
 /**
  * Laravel - A PHP Framework For Web Artisans
