@@ -1,0 +1,17 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.vscode
+.idea
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+composer-setup.php
+.DS_Store
+public/townway-33689-firebase-adminsdk-7czni-8fd1c42db7.json

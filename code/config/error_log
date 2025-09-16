@@ -1,0 +1,4 @@
+[18-Oct-2024 15:34:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/developmentalpha/public_html/eye-care.developmentalphawizz.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/developmentalpha/public_html/eye-care.developmentalphawizz.com/config/database.php on line 18
