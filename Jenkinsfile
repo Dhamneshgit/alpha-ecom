@@ -5,8 +5,8 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    sh 'docker build -t amitsonialpha/ecom-local:latest .'
-                    sh 'docker push amitsonialpha/ecom-local:latest'
+                    sh 'sudo docker build -t amitsonialpha/ecom-local:latest .'
+                    sh 'sudo docker push amitsonialpha/ecom-local:latest'
                 }
             }
         }
