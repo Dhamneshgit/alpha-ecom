@@ -25,6 +25,7 @@ pipeline {
             steps {
                 script {
                     sh 'kubectl set image deployment/ecom-php ecom-alphawizz=amitsonialpha/ecom-local:latest'
+                    sh 'kubectl rollout restart deployment ecom-php'
                 }
             }
         }
